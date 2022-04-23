@@ -2,7 +2,10 @@
 using namespace std;
 
 int main(){
-  printf("Hello from C");
-  cout<<"Hello from  C++";
+  string first_name, last_name;
+  printf("Enter the name \n\t");
+  cin>>first_name;
+  cin>>last_name;
+  cout<<"Hello from  C++" << first_name << " " << last_name;
   return 0;
 }
